@@ -36,7 +36,7 @@ public class Seminar2DZ1 {
                 temp.delete(0, temp.length());
 
                 commaPos = jsonCondition.indexOf(",");
-                if (commaPos == -1 && jsonCondition.length() > 0) commaPos = jsonCondition.length() - 1;
+                if (commaPos == -1 && jsonCondition.length() > 0) commaPos = jsonCondition.length();
             }
 
             sqlQuery.append(whereCondition);
